@@ -1,0 +1,78 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+#heading{
+    display: block;
+    text-align: center;
+    background-color: #41ffef;
+    color: #008c80;
+    font-size: 25px;
+    margin-top: 0;
+}
+#calculator{
+    position: relative;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    gap: 10px;
+    height: 500px;
+    border: rgb(0, 209, 205) 1px solid;
+    border-radius: 10px;
+    background-color: #04fae6;
+}
+
+#display{
+    grid-column: span 4;
+    height: 50px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+.numButton{
+    padding: 15px;
+    background-color: #41ffef;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.opButton{
+    padding: 15px;
+    background-color: #41ffef;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.eqButton{
+    padding: 15px;
+    background-color: #41ffef;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.clearButton{
+    padding: 15px;
+    background-color: #41ffef;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+button{
+    height: 50px;
+    font-size: 24px;
+}
